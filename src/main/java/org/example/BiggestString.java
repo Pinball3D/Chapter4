@@ -1,5 +1,7 @@
 package org.example;
-
+//Andrew Smiley
+//Chapter 4
+//Program 23
 public class BiggestString{
     private String one, two, three;
 
