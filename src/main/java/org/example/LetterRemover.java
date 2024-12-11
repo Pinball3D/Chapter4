@@ -1,5 +1,5 @@
 package org.example;
-
+//this isnt really done but im too tireedddd
 public class LetterRemover{
     private String sentence;
     private String lookFor;
