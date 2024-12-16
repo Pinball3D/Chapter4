@@ -17,10 +17,12 @@ public class LetterRemover{
     }
     public String removeLetters(){
         String removed = "";
-        for(int i = 0; i < sentence.length(); i++) {
+        int i = 0;
+        while(i < sentence.length()) {
             if(sentence.charAt(i) != lookFor.charAt(0)) { //make sure char isnt the one we dont want
                 removed += sentence.charAt(i);//add character
             }
+            i++;
         }
         return removed;
     }
